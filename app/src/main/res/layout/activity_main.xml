@@ -40,27 +40,29 @@
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <Button
-        android:id="@+id/buttonPlus"
+        android:id="@+id/buttonIncrease"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="@string/button_plus"
-        app:layout_constraintEnd_toStartOf="@+id/buttonMinus"
+        android:onClick="increaseCounter"
+        android:text="@string/button_increase"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDecrease"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewCounter" />
 
     <Button
-        android:id="@+id/buttonMinus"
+        android:id="@+id/buttonDecrease"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:text="@string/button_minus"
+        android:onClick="decreaseCounter"
+        android:text="@string/button_decrease"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/buttonPlus"
-        app:layout_constraintTop_toTopOf="@+id/buttonPlus" />
+        app:layout_constraintStart_toEndOf="@+id/buttonIncrease"
+        app:layout_constraintTop_toTopOf="@+id/buttonIncrease" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
