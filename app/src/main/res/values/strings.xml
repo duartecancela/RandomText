@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="text_view_helloworld">Hello World</string>
+    <string-array name="greetings_array">
+        <item>Hi!</item>
+        <item>Good morning!</item>
+        <item>Good af ternoon !</item>
+        <item>Good evening!</item>
+        <item>I t s ni c e to meet you!</item>
+        <item>I t s a pl easur e to meet you!</item>
+        <item>Morning!</item>
+        <item>How are thing s (with you)?</item>
+        <item>Whats new?</item>
+        <item>I t s good to see you!</item>
+        <item>Gday!</item>
+        <item>Howdy!</item>
+        <item>Hey!</item>
+        <item>Hey the r e !</item>
+        <item>Whats up?</item>
+        <item>Hows i t going?</item>
+        <item>Whats happening?</item>
+        <item>Yo!</item>
+    </string-array>
+</resources>
