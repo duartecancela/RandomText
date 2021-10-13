@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun newGreeting(view: android.view.View) {
-        Toast.makeText(applicationContext,"this is toast message",Toast.LENGTH_SHORT).show()
+        //Toast.makeText(applicationContext,"this is toast message",Toast.LENGTH_SHORT).show()
         val greetings: Array<String> = resources.getStringArray(R.array.greetings_array)
         val greeting = greetings[Random.nextInt(0, greetings.size -1)]
         val textView = findViewById<TextView>(R.id.textView)

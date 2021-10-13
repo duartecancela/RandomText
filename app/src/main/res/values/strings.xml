@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
-    <string name="text_view_helloworld">Hello World</string>
+    <string name="button_greeting">Greeting</string>
+    <string name="button_plus">+</string>
+    <string name="button_minus">-</string>
+    <string name="text_view_greeting">Random Greeting</string>
     <string-array name="greetings_array">
         <item>Hi!</item>
         <item>Good morning!</item>
